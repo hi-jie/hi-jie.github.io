@@ -15,7 +15,7 @@ body {
 	box-shadow: 1px 1px 3px #dddddd;
 	border-radius: 2px;
 }
-.project-item a, .project-item h3 {
+.project-item a {
 	font-size: 26px;
 	font-weight: normal;
 	color: black;
