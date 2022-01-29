@@ -36,7 +36,7 @@ a {
 	border-radius: 3px;
 }
 .card:hover {
-	box-shadow:  1px 1px 5px #ccc;
+	box-shadow:  1px 1px 5px #ccc; 
 }
 .card-title {
 	font-size: 26px;
