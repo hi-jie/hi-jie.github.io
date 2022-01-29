@@ -18,13 +18,25 @@ a {
 .title {
 	text-align: center;
 }
+.title img {
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.title img:hover {
+	filter: brightness(90%);
+}
 .card {
 	background: white;
 	margin-bottom: 20px;
 	padding: 20px;
 	display: block;
-	box-shadow: 1px 1px 3px #dddddd;
+	box-shadow: 1px 1px 3px #ddd;
 	border-radius: 3px;
+}
+.card:hover {
+	box-shadow:  1px 1px 5px #ccc;
 }
 .card-title {
 	font-size: 26px;
