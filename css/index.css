@@ -7,16 +7,18 @@ body {
 a {
 	text-decoration: none;
 }
+
 .main {
 	width: 800px;
 }
+
 .title, h2 {
 	font-weight: normal;
 }
 .title {
-    text-align: center;
+	text-align: center;
 }
-.project-item {
+.card {
 	background: white;
 	margin-bottom: 20px;
 	padding: 20px;
@@ -24,28 +26,27 @@ a {
 	box-shadow: 1px 1px 3px #dddddd;
 	border-radius: 3px;
 }
-.project-item-title {
+.card-title {
 	font-size: 26px;
 	font-weight: normal;
 	color: black;
 	margin: 0;
 }
-.project-item-title:hover {
+.card-title:hover {
 	color: #2080f0;
 }
-.project-item span {
+.card .version {
 	margin-left: 5px;
 	color: gray;
 }
-.project-item p {
+.card p {
 	line-height: 25px;
-	/*text-indent: 6;*/
 }
-.project-item a:not(.project-item-title) {
+.card-link {
 	font-size: 12px;
 	color: gray;
 	margin-left: 5px;
 }
-.project-item a:not(.project-item-title):hover {
+.card-link:hover {
 	color: black;
 }
