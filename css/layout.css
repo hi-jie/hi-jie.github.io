@@ -1,0 +1,36 @@
+﻿.wrapper {
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+}
+.maincolumn {
+	width: 800px;
+	margin: 20px;
+}
+.sidebarcolumn {
+	width: 280px;
+	margin: 20px;
+	margin-left: 0;
+}
+@media screen and (max-width: 1080px) {
+	.topbar {
+		width: 100%;
+	}
+	.footer {
+		width: 100%;
+	}
+	.maincolumn {
+		width: calc(100% - 300px);
+	} 
+	.sidebarcolumn {
+		width: 260px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.maincolumn {
+		width: 100%;
+	}
+	.sidebarcolumn {
+		display: none;
+	}
+}
