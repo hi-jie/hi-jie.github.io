@@ -62,7 +62,7 @@ h2 {
 .sidecard {	
 	background: white;
 	margin-bottom: 20px;
-	padding: 20px;
+	padding: 10px;
 	display: block;
 	box-shadow: 1px 1px 3px #dddddd;
 	border-radius: 5px;
@@ -76,9 +76,12 @@ h2 {
 	padding-left: 10px;
 	border-left: 3px solid dodgerblue;
 }
-.sidecard ul{
-	list-style-image: url(../img/sidebar-list-img.png);
-	margin: 10px;
+.sidecard li {
+	font-size: 14px;
+	margin-left: 0 !important;
+}
+.sidecard li i.fa {
+	color: gray;
 }
 .sidecard a {
 	display: inline-block;
